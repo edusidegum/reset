@@ -255,9 +255,8 @@
 
      <!-- Chancela de Atletas Profissionais -->
         <section class="card" aria-labelledby="headline-chancela">
-            <h2 id="headline-chancela">Chancela de Atletas Profissionais</h2>
-            <p style="margin-bottom:20px;">Parceria de confiança que inspira alta performance mundial diariamente.</p>
-            <img class="img-fluid" src="img/cr7_20anos.webp" width="800" height="600" alt="Cristiano Ronaldo celebrando 20 anos de parceria com a Herbalife Nutrition" loading="lazy">
+            <h2 id="headline-chancela">Alto Padrão e reconhecimento mundial Herbalife </h2>
+        
             <h3 style="margin-top:30px;font-size:15px;">Certificados e Padrões de Excelência</h3>
             <p style="font-size:12px;color:#888;">Toque na miniatura para ampliar</p>
             <div class="selos-carrossel" role="list" aria-label="Galeria de certificados e selos de excelência">
