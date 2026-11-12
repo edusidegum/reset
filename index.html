@@ -16,7 +16,8 @@
     <!-- Open Graph -->
     <meta property="og:title" content="Reset 5 Dias — Herbalife | Distribuidor Independente">
     <meta property="og:description" content="Cinco dias de rotina guiada com bebidas funcionais, dicas e orientações. Seja Cliente Premium com até 32% de desconto.">
-    <meta property="og:image" content="https://edusidegum.github.io/reset/img/Herbalife-Logo.webp>
+    <meta property="og:image" content="https://edusidegum.github.io/hypedrink/img/Herbalife-Logo.webp">
+
     <meta property="og:image:width" content="1080">
     <meta property="og:image:height" content="1558">>    
     <meta property="og:url" content="https://edusidegum.github.io/reset/">
@@ -42,9 +43,8 @@
     <!-- Preload LCP -->
     <link rel="preload" as="image" href="img/Resset1.png" fetchpriority="high">
 
-    <!-- CSS externo assíncrono (compartilhado do hypedrink — sem duplicação) -->
-    <link rel="preload" href="https://edusidegum.github.io/hypedrink/assets/css/style.css" as="style" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://edusidegum.github.io/hypedrink/assets/css/style.css"></noscript>
+   <!-- CSS compartilhado do hypedrink (mesmo estilo em todas as páginas da Reset) -->
+<link rel="stylesheet" href="https://edusidegum.com.br/reset/assets/css/style.css">
 
     <!-- CSS Crítico Inline -->
     <style>
@@ -178,21 +178,23 @@
 
 <body>
 <!-- ═══════════ HEADER STICKY ═══════════ -->
-    <header class="sticky-header" role="banner" aria-label="Barra de navegação principal">
-        <a href="https://edusidegum.github.io/reset/" aria-label="Página inicial Reset" class="topbar-brand">
-            <img src="https://edusidegum.github.io/hypedrink/img/Herbalife-Logo.webp" alt="Consultor Independente" class="topbar-logo" width="128" height="128">
-        </a>
-        <nav class="menu-dropdown" aria-label="Menu de páginas">
-            <button class="menu-toggle" aria-label="Abrir menu">☰ Menu</button>
-            <ul class="menu-lista">
-                <li><a href="https://catalogoherbalife.com.br/edusidegum" target="_blank" rel="noopener"> Catálogo Oficial</a></li>
-                <li><a href="https://edusidegum.github.io/HLFPremium/cadastro/index.html" target="_blank" rel="noopener"> Cliente Premium</a></li>
-                <li><a href="https://edusidegum.github.io/cadastro/cadastro.html" target="_blank" rel="noopener"> Novo Consultor</a></li>
-            </ul>
-        </nav>
-        <a href="https://wa.me/5551999663200?text=Resset%2C%20como%20fazer%20%3F" class="btn-cta" target="_blank" rel="noopener" aria-label="Falar no WhatsApp"> Fale Conosco</a>
-    </header>
-    <div class="header-spacer"></div>
+<header class="sticky-header">
+  <a class="topbar-brand" href="https://edusidegum.com.br/reset/index.html">
+    <img class="topbar-logo" src="https://edusidegum.github.io/hypedrink/img/Herbalife-Logo.webp" alt="Consultor Independente" width="128" height="128">
+    <span class="topbar-nome">Reset Metabólico Herbalife</span>
+  </a>
+  <nav class="menu-dropdown">
+    <button class="menu-toggle" type="button">☰ Menu</button>
+    <ul class="menu-lista">
+      <li><a href="https://edusidegum.com.br/reset/index.html">Reset</a></li>
+      <li><a href="https://edusidegum.com.br/reset/investimentoreset.html">Investimento</a></li>
+      <li><a href="https://edusidegum.com.br/HLFPremium">Linha Premium</a></li>
+    </ul>
+  </nav>
+  <a class="btn-cta" href="https://wa.me/5551999663200?text=Quero%20Saber%20mais%20Sobre%20o%20Reset%20Metabolico">WhatsApp</a>
+</header>
+<div class="header-spacer"></div>
+
 
 <!-- ═══════════ CONTEÚDO PRINCIPAL ═══════════ -->
     <main class="container" role="main">
