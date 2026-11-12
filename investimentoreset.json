@@ -1,0 +1,37 @@
+{
+  "pagina": "investimentoreset.html",
+  "url": "https://edusidegum.com.br/reset/investimentoreset.html",
+  "pagina_principal": "https://edusidegum.com.br/reset/index.html",
+  "robots": "noindex, nofollow, nosnippet",
+  "idioma": "pt-BR",
+  "produto": {
+    "nome": "Kit Reset Metabólico Herbalife (16 litros)",
+    "rendimento_litros": 16,
+    "base_rendimento": "N-R-G",
+    "rendimento_fiber_litros": 15,
+    "consumo_diario_litros": 1,
+    "dias_de_consumo": 16
+  },
+  "itens": [
+    { "produto": "Herbal Concentrate (102 g)", "pontos": 37.60, "valor_de": 364.00, "valor_por_prata": 280.28 },
+    { "produto": "N-R-G (100 g)", "pontos": 24.45, "valor_de": 252.00, "valor_por_prata": 194.04 },
+    { "produto": "Fiber Concentrate Manga (450 ml)", "pontos": 20.30, "valor_de": 206.00, "valor_por_prata": 158.62 },
+    { "produto": "Fiber Concentrate Uva (450 ml)", "pontos": 20.30, "valor_de": 206.00, "valor_por_prata": 158.62 }
+  ],
+  "total": {
+    "pontos": 102.65,
+    "valor_de": 1028.00,
+    "valor_por_prata": 791.56,
+    "desconto_prata_percentual": 23,
+    "pontos_minimos_prata": 100,
+    "parcelamento": { "vezes": 3, "valor_parcela": 263.85, "tipo": "cartão no nome do cliente" },
+    "valor_por_dia": 49.47
+  },
+  "condicoes": ["Desconto Prata de 23%", "Frete grátis", "Parcelamento em 3x", "Pagamento direto à Herbalife", "Outras vantagens Premium"],
+  "link_condicoes": "https://edusidegum.com.br/HLFPremium",
+  "avisos": [
+    "Rendimentos de Herbal Concentrate e N-R-G são estimativas; confirmar no rótulo.",
+    "Produtos são alimentos/suplementos alimentares e não substituem consulta médica."
+  ],
+  "validade_preco": "2026-12-31"
+}
