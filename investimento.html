@@ -14,6 +14,7 @@
 <meta property="og:url" content="https://edusidegum.com.br/reset/investimentoreset.html">
 <meta name="geo.region" content="BR">
 <meta name="language" content="pt-BR">
+<link rel="stylesheet" href="assets/css/style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -87,69 +88,52 @@
   ]
 }
 </script>
-<style>
-  :root { --verde:#0b7a3b; --verde-2:#0f9b4c; --ouro:#c9962b; --texto:#1f2a24; --fundo:#f6f8f5; --branco:#ffffff; --borda:#dfe6e0; }
-  * { box-sizing:border-box; margin:0; padding:0; }
-  body { font-family: "Segoe UI", Roboto, Arial, sans-serif; background:var(--fundo); color:var(--texto); line-height:1.6; }
-  header { background:linear-gradient(135deg,var(--verde),var(--verde-2)); color:#fff; padding:56px 20px 64px; text-align:center; }
-  header .selo { display:inline-block; background:rgba(255,255,255,.18); padding:6px 14px; border-radius:999px; font-size:.85rem; margin-bottom:16px; }
-  header h1 { font-size:2.2rem; line-height:1.2; margin-bottom:12px; }
-  header p { max-width:680px; margin:0 auto; opacity:.95; font-size:1.1rem; }
-  main { max-width:1000px; margin:-36px auto 40px; padding:0 20px; }
-  section { background:var(--branco); border:1px solid var(--borda); border-radius:14px; padding:28px; margin-bottom:24px; box-shadow:0 4px 14px rgba(0,0,0,.04); }
-  h2 { color:var(--verde); font-size:1.45rem; margin-bottom:14px; }
-  h3 { font-size:1.1rem; margin-bottom:8px; }
-  ul.vantagens { list-style:none; display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
-  ul.vantagens li { background:var(--fundo); border-left:4px solid var(--verde); padding:12px 14px; border-radius:8px; }
-  table { width:100%; border-collapse:collapse; font-size:.95rem; }
-  th, td { padding:12px 10px; border-bottom:1px solid var(--borda); text-align:right; }
-  th:first-child, td:first-child { text-align:left; }
-  thead th { background:var(--verde); color:#fff; font-weight:600; }
-  tfoot td { font-weight:700; background:#eef6f0; }
-  .destaque { color:var(--verde); font-weight:700; }
-  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-top:8px; }
-  .card { background:var(--fundo); border:1px solid var(--borda); border-radius:12px; padding:18px; text-align:center; }
-  .card .valor { font-size:1.6rem; font-weight:800; color:var(--verde); }
-  .card.ouro { border-color:var(--ouro); }
-  .card .rotulo { font-size:.85rem; text-transform:uppercase; letter-spacing:.04em; color:#56635b; }
-  .nota { font-size:.85rem; color:#56635b; margin-top:14px; }
-  .cta { display:block; width:max-content; margin:18px auto 0; background:var(--verde); color:#fff; text-decoration:none; padding:14px 26px; border-radius:999px; font-weight:700; }
-  .cta:hover { background:var(--verde-2); }
-  .pergunta { text-align:center; font-size:1.25rem; font-weight:700; color:var(--verde); margin:8px 0 0; }
-  details { border-bottom:1px solid var(--borda); padding:10px 0; }
-  summary { cursor:pointer; font-weight:600; }
-  details p { margin-top:8px; }
-  footer { text-align:center; font-size:.85rem; color:#56635b; padding:24px 20px 40px; }
-  footer a { color:var(--verde); }
-  @media (max-width:600px){ header h1 { font-size:1.6rem; } th,td { padding:8px 6px; font-size:.85rem; } }
-</style>
 </head>
 <body>
 
-<header>
-  <span class="selo">Linha Premium Herbalife</span>
-  <h1>Reset Metabólico: seu kit para 16 litros</h1>
-  <p>Veja o investimento completo, o rendimento e as vantagens de comprar pela Linha Premium.</p>
+<header class="sticky-header">
+  <a class="topbar-brand" href="https://edusidegum.com.br/reset/index.html">
+    <span class="topbar-nome">Reset Metabólico Herbalife</span>
+  </a>
+  <nav class="menu-dropdown">
+    <button class="menu-toggle" type="button">Menu</button>
+    <ul class="menu-lista">
+      <li><a href="https://edusidegum.com.br/reset/index.html">Reset</a></li>
+      <li><a href="https://edusidegum.com.br/reset/investimentoreset.html">Investimento</a></li>
+      <li><a href="https://edusidegum.com.br/HLFPremium">Linha Premium</a></li>
+    </ul>
+  </nav>
+  <a class="btn-cta" href="https://wa.me/5551999663200?text=Quero%20Saber%20mais%20Sobre%20o%20Reset%20Metabolico">WhatsApp</a>
 </header>
+<div class="header-spacer"></div>
 
-<main>
+<main class="container">
 
-  <section aria-labelledby="vantagens">
+  <section class="card">
+    <h1>Reset Metabólico: seu kit para 16 litros</h1>
+    <p>Veja o investimento completo, o rendimento e as vantagens de comprar pela Linha Premium.</p>
+  </section>
+
+  <div class="separator-1"></div>
+
+  <section class="card" aria-labelledby="vantagens">
     <h2 id="vantagens">Vantagens de comprar pela Linha Premium</h2>
-    <ul class="vantagens">
-      <li><strong>Desconto Prata de 23%</strong> em todo o pedido</li>
-      <li><strong>Frete grátis</strong></li>
-      <li><strong>Parcelamento em 3x</strong> no cartão, no seu nome</li>
-      <li><strong>Pagamento direto à Herbalife</strong>, com segurança</li>
-      <li><strong>Outras vantagens exclusivas</strong> para clientes Premium</li>
+    <ul style="list-style:none; text-align:left; margin-top:16px;">
+      <li style="padding:8px 0;"><strong>Desconto Prata de 23%</strong> em todo o pedido</li>
+      <li style="padding:8px 0;"><strong>Frete grátis</strong></li>
+      <li style="padding:8px 0;"><strong>Parcelamento em 3x</strong> no cartão, no seu nome</li>
+      <li style="padding:8px 0;"><strong>Pagamento direto à Herbalife</strong>, com segurança</li>
+      <li style="padding:8px 0;"><strong>Outras vantagens exclusivas</strong> para clientes Premium</li>
     </ul>
   </section>
 
-  <section aria-labelledby="tabela">
+  <div class="separator-2"></div>
+
+  <section class="card" aria-labelledby="tabela">
     <h2 id="tabela">Seu kit e o investimento</h2>
-    <div style="overflow-x:auto;">
+    <div class="table-responsive">
       <table>
-        <caption style="text-align:left; padding-bottom:10px; color:#56635b;">Valores em reais (R$). Valor DE = preço sugerido de venda. Valor POR = Cliente Prata (23%).</caption>
+        <caption style="text-align:left; padding-bottom:10px;">Valores em reais (R$). Valor DE = preço sugerido de venda. Valor POR = Cliente Prata (23%).</caption>
         <thead>
           <tr>
             <th scope="col">Produto</th>
@@ -163,77 +147,59 @@
           <tr><td>N-R-G (100 g)</td><td>24,45</td><td>R$ 252,00</td><td>R$ 194,04</td></tr>
           <tr><td>Fiber Concentrate Manga (450 ml)</td><td>20,30</td><td>R$ 206,00</td><td>R$ 158,62</td></tr>
           <tr><td>Fiber Concentrate Uva (450 ml)</td><td>20,30</td><td>R$ 206,00</td><td>R$ 158,62</td></tr>
+          <tr><td><strong>Total do pedido</strong></td><td><strong>102,65</strong></td><td><strong>R$ 1.028,00</strong></td><td><strong>R$ 791,56</strong></td></tr>
         </tbody>
-        <tfoot>
-          <tr><td>Total do pedido</td><td>102,65</td><td>R$ 1.028,00</td><td>R$ 791,56</td></tr>
-        </tfoot>
       </table>
     </div>
-    <p class="nota">Pedido com 102,65 pontos, acima dos 100 pontos necessários para o nível Prata.</p>
+    <p>Pedido com 102,65 pontos, acima dos 100 pontos necessários para o nível Prata.</p>
   </section>
 
-  <section aria-labelledby="resumo">
+  <section class="card" aria-labelledby="resumo">
     <h2 id="resumo">Resumo do seu investimento</h2>
-    <div class="cards">
-      <div class="card">
-        <div class="rotulo">Valor DE</div>
-        <div class="valor">R$ 1.028,00</div>
-        <div class="nota">Preço sugerido de venda</div>
-      </div>
-      <div class="card ouro">
-        <div class="rotulo">Valor POR (Prata)</div>
-        <div class="valor">R$ 791,56</div>
-        <div class="nota">Desconto de 23%</div>
-      </div>
-      <div class="card">
-        <div class="rotulo">Parcelado</div>
-        <div class="valor">3x R$ 263,85</div>
-        <div class="nota">No cartão, no nome do cliente</div>
-      </div>
-      <div class="card">
-        <div class="rotulo">Rendimento</div>
-        <div class="valor">~16 litros</div>
-        <div class="nota">Base N-R-G</div>
-      </div>
-      <div class="card">
-        <div class="rotulo">Valor por dia</div>
-        <div class="valor">~R$ 49,47</div>
-        <div class="nota">Considerando 1 litro por dia</div>
-      </div>
-    </div>
-    <p class="nota">Os rendimentos de Herbal Concentrate e N-R-G são estimativas e devem ser confirmados no rótulo. Os dois frascos de Fiber Concentrate rendem cerca de 15 litros.</p>
+    <ul style="list-style:none; text-align:left; margin-top:16px;">
+      <li style="padding:8px 0;"><strong>Valor DE:</strong> R$ 1.028,00 (preço sugerido de venda)</li>
+      <li style="padding:8px 0;"><strong>Valor POR (Cliente Prata):</strong> R$ 791,56</li>
+      <li style="padding:8px 0;"><strong>Parcelado:</strong> 3x de R$ 263,85 no cartão, no nome do cliente</li>
+      <li style="padding:8px 0;"><strong>Rendimento:</strong> cerca de 16 litros de bebida (base N-R-G)</li>
+      <li style="padding:8px 0;"><strong>Valor por dia:</strong> cerca de R$ 49,47, considerando 1 litro por dia</li>
+    </ul>
+    <p>Os rendimentos de Herbal Concentrate e N-R-G são estimativas e devem ser confirmados no rótulo. Os dois frascos de Fiber Concentrate rendem cerca de 15 litros.</p>
   </section>
 
-  <section aria-labelledby="duvidas">
+  <div class="separator-3"></div>
+
+  <section class="card" aria-labelledby="duvidas">
     <h2 id="duvidas">Perguntas frequentes</h2>
-    <details>
-      <summary>Quanto custa o Reset Metabólico com desconto Prata?</summary>
-      <p>O Valor DE é R$ 1.028,00. Com o desconto Prata de 23%, o Valor POR é R$ 791,56, com 102,65 pontos de volume.</p>
-    </details>
-    <details>
-      <summary>Quantos litros rende o kit?</summary>
-      <p>Cerca de 16 litros de bebida, tendo como base o N-R-G. Os rendimentos são estimativas e devem ser confirmados no rótulo.</p>
-    </details>
-    <details>
-      <summary>Posso parcelar a compra?</summary>
-      <p>Sim, em 3x no cartão, no nome do cliente, com pagamento direto à Herbalife.</p>
-    </details>
+    <div style="text-align:left; margin-top:16px;">
+      <details>
+        <summary>Quanto custa o Reset Metabólico com desconto Prata?</summary>
+        <p>O Valor DE é R$ 1.028,00. Com o desconto Prata de 23%, o Valor POR é R$ 791,56, com 102,65 pontos de volume.</p>
+      </details>
+      <details>
+        <summary>Quantos litros rende o kit?</summary>
+        <p>Cerca de 16 litros de bebida, tendo como base o N-R-G. Os rendimentos são estimativas e devem ser confirmados no rótulo.</p>
+      </details>
+      <details>
+        <summary>Posso parcelar a compra?</summary>
+        <p>Sim, em 3x no cartão, no nome do cliente, com pagamento direto à Herbalife.</p>
+      </details>
+    </div>
   </section>
 
-  <section aria-labelledby="orientacoes">
+  <section class="card" aria-labelledby="orientacoes">
     <h2 id="orientacoes">Orientações importantes</h2>
     <p>Os produtos Herbalife são alimentos e suplementos alimentares. Não substituem consulta médica nem tratamento de doenças. Em caso de condição de saúde específica, leve a Ficha Técnica do produto ao seu médico. Consulte sempre o rótulo para informações detalhadas.</p>
   </section>
 
-  <p class="pergunta">Como fica melhor pra você?</p>
-  <a class="cta" href="https://edusidegum.com.br/HLFPremium">Conhecer as condições da Linha Premium</a>
+  <p class="pergunta" style="font-size:1.25rem; font-weight:700; text-align:center; color:var(--primary); margin:30px 0 0;">Como fica melhor pra você?</p>
+  <a class="btn-primary-whats" href="https://edusidegum.com.br/HLFPremium" style="display:block; margin:20px auto;">Conhecer as condições da Linha Premium</a>
 
 </main>
 
 <footer>
-  <p><a href="https://edusidegum.com.br/reset/index.html">← Voltar para o Reset Metabólico</a></p>
+  <p><a href="https://edusidegum.com.br/reset/index.html" style="color:#78BE20;">← Voltar para o Reset Metabólico</a></p>
   <p>Este site não é oficial da Herbalife. Valores sujeitos a alteração pela tabela oficial vigente.</p>
-  <p><a href="https://edusidegum.github.io/menu/compartilhado/politicadeprivacidade.html">Política de Privacidade</a> · Desenvolvido por EduSidegum</p>
+  <p><a href="https://edusidegum.github.io/menu/compartilhado/politicadeprivacidade.html" style="color:#78BE20;">Política de Privacidade</a> · Desenvolvido por EduSidegum</p>
 </footer>
 
 </body>
